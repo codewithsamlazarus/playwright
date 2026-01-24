@@ -6,6 +6,7 @@ test(`Launch RedBus in Edge`, async ()=>{
     const browser = await chromium.launch({channel:"msedge", headless:false});
     const context = await browser.newContext();
     const pageEdge = await context.newPage();
+//  const pageEdge1 = await context.newPage();
     await pageEdge.goto("https://www.redbus.in/");
     let edgePageTitle = await pageEdge.title();
     if(edgePageTitle == 'redBus: Bus Tickets from ₹299 and up to 50% off train tickets'){
