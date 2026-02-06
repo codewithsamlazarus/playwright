@@ -33,13 +33,13 @@ test("Edit a Lead in the Salesforce Application", async({page}) => {
     await page.locator("//a[text()='Mr.']").click();
 
     // Step 8: Now enter the first name
-    await page.getByLabel('First Name').fill('Harry');
+    let firstNameElement = page.getByLabel('First Name')
+    firstNameElement.fill('Harry');
+    firstNameElement.press('Enter');
 
     // Step 9: Click on Save and Verify the first name 
     await page.locator("//span[text()='Save']").click();
     await page.waitForTimeout(5000);
     await page.screenshot({path: 'individualCreated.png'});
-
-    
 
 });

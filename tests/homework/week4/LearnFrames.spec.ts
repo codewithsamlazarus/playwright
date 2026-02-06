@@ -21,7 +21,6 @@ test("Learn to Automate Frames in Playwright", async ({page})=>{
     let outerFrame = page.frameLocator("[src='page.xhtml']");
     let innerFrame = outerFrame.frameLocator("#frame2");
     await innerFrame.locator("//button[text()='Click Me']").click()
-
     // Step 5 - Assert the text change
     expect(changedText).toBe("Hurray! You Clicked Me.");
 
