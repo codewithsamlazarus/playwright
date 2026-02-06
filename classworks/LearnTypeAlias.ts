@@ -15,3 +15,21 @@ function makePayment(paymentGateway: paymentMethod) {
 makePayment("UPI");
 
 // Type Alias - Type Intersection
+
+
+type product = {
+    id : number,
+    name : string
+}
+
+let item1 = {
+    id : 101,
+    name : `Book`
+}
+
+let item2 = {
+    id : 102,
+    name : `Pen`
+}
+
+console.log(item2.name);

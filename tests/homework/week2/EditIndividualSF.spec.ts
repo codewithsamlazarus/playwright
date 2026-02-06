@@ -25,7 +25,8 @@ test("Edit a Lead in the Salesforce Application", async({page}) => {
     await page.keyboard.press('Enter');
 
     // Step 6: Click on the Dropdown icon and Select Edit
-    await page.locator("a[title='Show 2 more actions']").click();
+    // await page.locator("a[title='Show 2 more actions']").click();
+    await page.locator("//td[contains(@data-col-key-value,'ListViewRowLevelAction')]//button").nth(1).click();
     await page.locator("//*[text()='Edit']").click();
 
     // Step 7: Select Salutation as 'Mr'

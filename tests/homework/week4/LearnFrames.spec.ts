@@ -16,7 +16,6 @@ test("Learn to Automate Frames in Playwright", async ({page})=>{
     // Step 3 - Get the total count of frames present in the page
     let allFrames = page.frames();
     console.log(allFrames.length);
-    
     // Step 4 - Interact with the Click Me button present inside the nested frames
     let outerFrame = page.frameLocator("[src='page.xhtml']");
     let innerFrame = outerFrame.frameLocator("#frame2");
