@@ -1,9 +1,9 @@
 
 // Count the number of occurrences of each character in a string
 
-const numbers = [2,4,5,4,2,1,2];
+const numbers = [2,4,5,4,2,1,2,2,2,2,2,2,2,2,2,2];
 
-function countCharOccurance(input: number) {
+function countCharOccurance(input) {
 // Step 1: Initialize count = 0
 let count = 0;
 // Step 2: Loop through the array `nums`.
@@ -17,4 +17,4 @@ let count = 0;
     return count;
 }
 
-console.log(countCharOccurance(5)); 
+console.log(countCharOccurance(2)); 

@@ -9,6 +9,7 @@ test('Salesforce Login Test', async ({page}) => {
     await page.locator('#password').fill("TestLeaf@2025")
     await page.locator('#Login').click()
     await page.waitForURL('https://testleaf.lightning.force.com/lightning/page/home', {timeout: 60000});
+        
     // await page.waitForLoadState('domcontentloaded');
     // console.log(await page.title())
 

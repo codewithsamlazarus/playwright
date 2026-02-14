@@ -1,0 +1,16 @@
+[
+    {
+    "TC_ID" : "002",
+    "TC_Name": "Create Lead using JSON",
+    "username" : "demosalesmanager",
+    "password" : "crmsfa",
+
+    "companyName" : "Deloitte",
+    "firstName" : "Sam",
+    "lastName" : "Lazarus",
+    "title" : "Mr",
+    "annualRevenue" : "100000",
+    "departmentName" : "Consulting",
+    "phoneNumber" : "9876543210"
+    }
+]
