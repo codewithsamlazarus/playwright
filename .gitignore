@@ -1,0 +1,20 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/tests/classroom/API
+/data/login_salesforce.json
+/data/leaftaps.env
+/tests/classroom/API/SalesforceLeadAPI.spec.ts
+/tests/homework/week7/SalesforceCaseAPI.spec.ts
+/tests/homework/week7/SalesforceContactAPI.spec.ts
+/tests/homework/week7/SalesforceOpportunityAPI.spec.ts
+/tests/classroom/UI/MarathonUIAPI.spec.ts
+/data/login_Salesforce.json
+data/Salesforce.env
+.env
+*.env
