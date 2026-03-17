@@ -1,5 +1,5 @@
 import test from "@playwright/test";
-import leafTapsCreds from "../../../data/leafTapsTestData.json";
+import leafTapsCreds from "../../../data/leafTapsLoginTestData.json";
 
 test.describe.parallel(`Login tests in serial mode`, async ()=>{
     
