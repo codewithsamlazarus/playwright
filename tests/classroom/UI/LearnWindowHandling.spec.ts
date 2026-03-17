@@ -1,7 +1,8 @@
 import test from "@playwright/test";
 
 
-test.only(`Multiple pages window handling`,async ({page,context}) => {
+// test.only(`Multiple pages window handling`,async ({page,context}) => {
+test(`Multiple pages window handling`,async ({page,context}) => {
 
     await page.goto(`https://www.flipkart.com/`);
 

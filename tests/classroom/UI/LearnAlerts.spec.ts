@@ -1,7 +1,8 @@
 import { test } from "@playwright/test";
 
 
-test.only(`Test to Handle alerts/dialogs using page.on`,async ({page}) => {
+// test.only(`Test to Handle alerts/dialogs using page.on`,async ({page}) => {
+test(`Test to Handle alerts/dialogs using page.on`,async ({page}) => {
     
     await page.goto(`https://leafground.com/alert.xhtml`);
 
