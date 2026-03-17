@@ -33,7 +33,7 @@ export default defineConfig({
     actionTimeout: 60000,
     navigationTimeout: 60000,
     trace: 'on',
-    headless: false,
+    headless: process.env.CI ? true : false,
     screenshot: 'only-on-failure',
     video: 'off',
   },
